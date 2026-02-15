@@ -22,7 +22,7 @@ This project implements a Digital Onboarding System in Java.
 The system models a **Composition (Has-A)** relationship between a `Client` and a `Card`.  
 Each `Client` object owns a `Card` object.
 
-The application captures user input from the console, applies validation rules, and displays formatted reports based on the data entered.
+The application captures user input from the console, applies validation rules and displays formatted reports based on the data entered.
 
 ---
 
