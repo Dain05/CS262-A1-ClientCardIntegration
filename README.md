@@ -1,74 +1,70 @@
-# Assignment #1 Digital Banking: Client & Card Integration
+Assignment #1 – Digital Banking: Client & Card Integration
+Course Information
 
-## Course Information
-**Course:** Introduction to Object-Oriented Programming II  
-**Lecturer:** Doron Williams  
-**Type:** Group Assignment  
+Course: Introduction to Object-Oriented Programming II (CS262)
+Lecturer: Doron Williams
+Type: Group Assignment
+Due Date: February 24, 2026
 
----
+Group Members
 
-## Group Members
-- Dain Thorpe  
-- Shanique Wisdom  
-- Joan Johnson-Brown  
-- Pasha Pinnock  
-- Dante Graham
+Dain Thorpe
 
----
+Shanique Wisdom
 
-## Project Overview
-This project implements a Digital Onboarding System in Java.
+Joan Johnson-Brown
 
-The system models a **Composition (Has-A)** relationship between a `Client` and a `Card`.  
-Each `Client` object owns a `Card` object.
+Pasha Pinnock
 
-The application captures user input from the console, applies validation rules and displays formatted reports based on the data entered.
+Dante Graham
 
----
+GitHub Repository
 
-## Technical Breakdown
+https://github.com/Dain05/CS262-A1-ClientCardIntegration.git
 
-### Task A – Card Class
-- Private attributes:
-  - `cardNumber` (String)
-  - `balance` (double)
-  - `pin` (int)
-  - `isActive` (boolean)
-- Parameterized constructor
-- `updatePin(oldPin, newPin)` with validation
-- `activateCard()` method
-- Overridden `toString()` method
-- Masked card number output (Bonus feature)
+Project Overview
 
----
+This project implements a Digital Onboarding System using Java.
 
-### Task B – Client Class
-- Private attributes:
-  - `idNumber` (int)
-  - `firstName` (String)
-  - `lastName` (String)
-  - `age` (int)
-  - `Card` object
-- Composition relationship (Client has a Card)
-- Age validation (must be 18 or older)
-- Overridden `toString()` including card details
+The system models a composition (Has-A) relationship between a Client and a Card. Each Client object owns a Card object.
 
----
+The application captures user input from the console, validates business rules, and displays formatted reports.
 
-### Task C – Onboarding Application
-- Uses `Scanner` for data capture
-- Implements `try-catch` for `InputMismatchException`
-- Instantiates `Client` and `Card`
-- Activates the card
-- Attempts PIN update
-- Displays initial and final profile
+Technical Implementation
+Task A – Card Class
 
----
+Private attributes: cardNumber, balance, pin, isActive
 
-### Task D – Professional Standards
-- Proper access modifiers used
-- Java naming conventions followed
-- Project structured into three separate files:
-  - `Client.java`
-  - `Card.java`
-  - `OnboardingApp.java`
+Parameterized constructor
+
+updatePin(oldPin, newPin) method
+
+activateCard() method
+
+Overridden toString() method
+
+Masked card number display
+
+Task B – Client Class
+
+Private attributes: idNumber, firstName, lastName, age, Card
+
+Composition relationship (Client has a Card)
+
+Age validation (18+)
+
+Overridden toString() including card details
+
+Task C – Onboarding Application
+
+Uses Scanner for input
+
+try-catch block for InputMismatchException
+
+Creates Client and Card objects
+
+Activates card
+
+Attempts PIN update
+
+Displays initial and final profile
