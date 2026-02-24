@@ -12,7 +12,7 @@
 - Shanique Wisdom  
 - Joan Johnson-Brown  
 - Pasha Pinnock  
-- Dante Graham  
+- Dante Graham
 
 ---
 
