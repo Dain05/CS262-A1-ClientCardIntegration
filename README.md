@@ -18,7 +18,7 @@
 ---
 
 ## GitHub Repository
-https://github.com/Dain05/CS262-A1-ClientCardIntegration
+https://github.com/Dain05/CS262-A1-ClientCardIntegration.git
 
 ---
 
